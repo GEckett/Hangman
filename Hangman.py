@@ -7,7 +7,6 @@ word_list = hangman_words.word_list
 Word = random.choice(word_list)
 Word_length = len(Word)
 print(hangman_art.logo)
-print(f'Pssst, the solution is {Word}.')
 display = []
 for _ in range(Word_length):
     display += "_"
