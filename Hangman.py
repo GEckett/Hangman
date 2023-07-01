@@ -12,7 +12,6 @@ for _ in range(Word_length):
 print(display)
 
 stages = hangman_art.stages
-
 Lives = 6
 end_game = False
 
